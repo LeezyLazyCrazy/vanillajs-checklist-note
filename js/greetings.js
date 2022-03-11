@@ -18,7 +18,7 @@ function onLoginSubmit(event){
 }
 
 function painGreetings(username){
-  greeting.innerText = `Hello ${username}`;
+  greeting.innerText = `Hello ${username} 🖐🏻`;
   greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
@@ -30,7 +30,7 @@ if(savedUsername === null){
   loginForm.addEventListener("submit", onLoginSubmit);
 }else{
   //show the greetings
- painGreetings(savedUsername);
+  painGreetings(savedUsername);
 }
 
 
