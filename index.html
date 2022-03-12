@@ -9,14 +9,12 @@
   <body>
     <div class="wrap">
 
-      <h2 id="clock">00:00:00</h2>
-      
+      <h2 id="clock">00:00:00</h2>     
       <div id="weather">
         <span></span>
         <span></span>
       </div>
- 
-     
+
       <form class="hidden" id="login-form">
         <input
             required
@@ -27,8 +25,10 @@
         <input type="submit" value="Log In" />
       </form>
       <h1 class="hidden" id="greeting"></h1>
+ 
+     <div class="note">    
       <div class="todolist">
-        <h3>< What to do ></h3>
+        <h3>_____________ What to do _____________</h3>
         <form id="todo-form">
         <input 
         type="text" 
@@ -37,13 +37,15 @@
         />
         </form>
         <ul id="todo-list"></ul>
-      </div>
-      <div id="quote">
-        <span></span>
-        -
-        <span></span>
-      </div>
-    
+      </div>     
+     </div>
+
+     <div id="quote">
+      <span></span>
+      -
+      <span></span>
+    </div>
+     
 
     </div>
     <script src="js/greetings.js"></script>
