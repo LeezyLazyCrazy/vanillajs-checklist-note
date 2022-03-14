@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Sansita+Swashed:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 .hidden {
   display:none;
@@ -48,10 +49,10 @@ img{
 #clock{
   text-align: center;
   height:200px;
-  font-size:8rem;
-  margin-top:60px;
+  font-size:6rem;
+  margin-top:70px;
   margin-bottom: 0;
-  color:tomato;    
+  color:rgb(253, 71, 223); 
 }
 
 #weather{
@@ -69,7 +70,7 @@ img{
   padding:-100px;
 }
   #weather:hover{
-      color:rgb(241, 255, 111);
+      color:rgb(229, 255, 0);
   }
 
 .note{
@@ -137,7 +138,8 @@ img{
   color: rgb(13, 1, 180);
   font-weight: 600;
   font-size:3.5rem;
-  font-family: 'Sansita Swashed';
+  _font-family: 'Sansita Swashed';
+  font-family: 'Great Vibes', cursive;
 }
 .todolist {
   height: auto;
@@ -197,7 +199,7 @@ img{
       margin: 0 auto;
   }
   #todo-list li:hover{
-      color:rgb(241, 255, 111);
+      color:rgb(0, 253, 253);
   }
   #todo-list button{
       margin-left:10px;
@@ -220,14 +222,12 @@ img{
   padding-top: 60px;
   margin-bottom: 20px;
   color: rgb(255, 255, 255);
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight:400;
   font-family: 'EB Garamond', serif;
 }
  #quotes span{
-  text-align: center;
-  _position:fixed;
-  _bottom: 0px; 
+  text-align: center; 
   width: 100%;
   }
 
