@@ -23,14 +23,14 @@ body{
   align-content: center;
   flex-wrap: wrap;
   flex-direction: column;
-  height: 100vh;
+  height: auto;
   _background-color: rgba(255, 255, 255, 0.301 /35%);
 }
 
 
 img{
   position:absolute;
-  height: 100vh;
+  height: auto;
   width: 100%;
   z-index:-2;
   left: 0px; 
@@ -41,18 +41,17 @@ img{
   background-size : cover;
   max-width:100%;
   min-width:1880px;;
-  _max-height:1400px;
-  _min-height:1200px;
- 
+  max-height:1400px;
+  min-height:1200px;
 }
 
 #clock{
   text-align: center;
   height:200px;
   font-size:8rem;
-  margin:10px;
+  margin-top:60px;
+  margin-bottom: 0;
   color:tomato;    
-  padding:-100px;
 }
 
 #weather{
@@ -74,7 +73,7 @@ img{
   }
 
 .note{
- 
+  height: auto;
   background-color: rgba(212, 255, 132, 0.3);
   text-align: center;
 }
@@ -141,6 +140,7 @@ img{
   font-family: 'Sansita Swashed';
 }
 .todolist {
+  height: auto;
   text-align: center;
   margin:30px 20px 30px 20px;
   padding-bottom: 15px;
@@ -162,7 +162,7 @@ img{
   color:rgb(247, 24, 255);
   font-size:1.2rem;
   width: 500px;
-  height:40px;
+  height:auto;
   background-color: rgb(247 132 255 / 33%);
   font-weight: 500;
   border:none;
@@ -185,6 +185,8 @@ img{
   text-align: center;
 }
   #todo-list li{
+      word-wrap: break-word;
+      white-space: normal;
       list-style: none;
       color:rgb(13, 1, 180);
       margin-top:40px;
@@ -213,6 +215,8 @@ img{
   }
 
 #quote {
+  display: flex;
+  bottom: 0px; 
   padding-top: 60px;
   margin-bottom: 20px;
   color: rgb(255, 255, 255);
@@ -222,8 +226,8 @@ img{
 }
  #quotes span{
   text-align: center;
-  position:fixed;
-  bottom: 0px; 
+  _position:fixed;
+  _bottom: 0px; 
   width: 100%;
   }
 
