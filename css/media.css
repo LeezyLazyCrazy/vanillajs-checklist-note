@@ -1,0 +1,28 @@
+@media ( max-width: 1320px ) {
+  .wrap{transform: translateX(-50%)translateY(10%); margin: 0 10px;}
+  img {height:100%;}
+  }
+  @media ( max-width: 1020px ) {
+    #clock{font-size: 80px;}
+    .wrap #todo-form input::placeholder{font-size: 18px;}
+  }
+  @media ( max-width: 768px ) {
+    .wrap{transform: translateX(-50%)translateY(30%); margin: 0 10px;}
+    #clock{font-size: 60px;}
+  }
+  @media ( max-width: 589px ) {
+    .wrap #todo-form input::placeholder{font-size:15px;}
+    #clock{font-size: 40px;}
+    #greeting {font-size: 25px;}
+  }
+  @media ( max-width: 450px ) {
+    #clock {font-size: 30px;}
+    #greeting {font-size: 18px;}
+    #quote span {font-size: 12px;}
+    #todo-list li span{font-size:12px;}
+  }
+  @media ( max-width: 320px ) {
+    
+  }
+  
+  
