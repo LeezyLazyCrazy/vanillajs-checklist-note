@@ -42,7 +42,7 @@ img{
 
 #clock{
   text-align: center;
-  height:125px;
+  _height:125px;
   font-size:4rem;
   margin-top:65px;
   margin-bottom: 0;
@@ -203,8 +203,7 @@ img{
   }
 
 #quote {
-  display: flex;
-  bottom: 0px; 
+  text-align: center;
   padding-top: 60px;
   margin-bottom: 20px;
   color: rgb(255, 255, 255);
@@ -212,7 +211,7 @@ img{
   font-weight:400;
   font-family: 'EB Garamond', serif;
 }
- #quotes span{
+ #quote p{
   text-align: center; 
   width: 100%;
   }
