@@ -5,18 +5,15 @@
   @media ( max-width: 1020px ) {
     #clock{font-size: 80px;}
     .wrap #todo-form input::placeholder{font-size: 18px;}
-    #todo-form input {width:auto; }
   }
   @media ( max-width: 768px ) {
     .wrap{margin: 0 10px;}
     #clock{font-size: 60px;}
-    #todo-form input {width:auto; }
   }
   @media ( max-width: 589px ) {
     .wrap #todo-form input::placeholder{font-size:15px;}
     #clock{font-size: 40px;}
-    #greeting {font-size: 25px;}
-    #todo-form input {width:auto; }
+    #greeting {font-size: 25px;} 
     #quotes p {font-size: 12px; }
   }
   @media ( max-width: 450px ) {
