@@ -29,7 +29,7 @@
     
   }
   @media ( max-width: 320px ) {
-    
+    #login-form input:nth-child(2){margin-left: 0;}
   }
   
   
