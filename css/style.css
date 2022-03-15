@@ -122,7 +122,6 @@ img{
   color: rgb(13, 1, 180);
   font-weight: 600;
   font-size:2.5rem;
-  _font-family: 'Sansita Swashed';
   font-family: 'Great Vibes', cursive;
 }
 .todolist {
@@ -130,7 +129,6 @@ img{
   text-align: center;
   margin:30px 20px 30px 20px;
   padding-bottom: 15px;
-  top: 10px;
   background-color:rgba(255, 255, 255, 0.726) ;
   border: 2px solid #ffff;
 }
