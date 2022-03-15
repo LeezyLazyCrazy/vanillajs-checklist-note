@@ -18,7 +18,7 @@
   }
   @media ( max-width: 450px ) {
     #clock {font-size: 30px; }
-    #login-form input {width: 100%;}
+    #login-form input:nth-child(2)
     #weather {font-size: 10px; margin-top: 10px;}
     #greeting {font-size: 30px;}
     .note{width: 50%;}
